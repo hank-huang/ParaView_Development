@@ -12,6 +12,12 @@ vtkFiltersModelingModule.h
 vtkGraphGeodesicPath.h
 ../vtkGraphGeodesicPath.h
 
+/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/./vtkCurvatures.h
+vtkFiltersGeneralModule.h
+/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/./vtkFiltersGeneralModule.h
+vtkPolyDataAlgorithm.h
+/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/./vtkPolyDataAlgorithm.h
+
 /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilterInit.cxx
 vtkPython.h
 /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkPython.h
@@ -107,8 +113,8 @@ vtkPoints.h
 /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkPoints.h
 vtkPolyData.h
 /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkPolyData.h
-vtkCurvatures.h
-/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkCurvatures.h
+./vtkCurvatures.h
+/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/./vtkCurvatures.h
 
 /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.h
 vtkFiltersModelingModule.h
@@ -677,12 +683,6 @@ vtkAlgorithm.h
 /export/bofur/che/paraview/paraview/VTK/Common/ExecutionModel/vtkAlgorithm.h
 vtkPolyData.h
 /export/bofur/che/paraview/paraview/VTK/Common/ExecutionModel/vtkPolyData.h
-
-/export/bofur/che/paraview/paraview/VTK/Filters/General/vtkCurvatures.h
-vtkFiltersGeneralModule.h
-/export/bofur/che/paraview/paraview/VTK/Filters/General/vtkFiltersGeneralModule.h
-vtkPolyDataAlgorithm.h
-/export/bofur/che/paraview/paraview/VTK/Filters/General/vtkPolyDataAlgorithm.h
 
 /export/bofur/che/paraview/paraview/VTK/Filters/Modeling/vtkDijkstraGraphInternals.h
 vector

@@ -160,6 +160,7 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_P
  /export/bofur/che/paraview/paraview_build/VTK/Utilities/KWIML/vtk_kwiml.h
  /export/bofur/che/paraview/paraview_build/vtkPVConfig.h
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o
+ /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/./vtkCurvatures.h
  /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.cxx
  /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.h
  /export/bofur/che/paraview/paraview/VTK/Common/Core/vtkABI.h
@@ -225,7 +226,6 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry
  /export/bofur/che/paraview/paraview/VTK/Common/ExecutionModel/vtkAlgorithm.h
  /export/bofur/che/paraview/paraview/VTK/Common/ExecutionModel/vtkExecutive.h
  /export/bofur/che/paraview/paraview/VTK/Common/ExecutionModel/vtkPolyDataAlgorithm.h
- /export/bofur/che/paraview/paraview/VTK/Filters/General/vtkCurvatures.h
  /export/bofur/che/paraview/paraview/VTK/Filters/Modeling/vtkDijkstraGraphInternals.h
  /export/bofur/che/paraview/paraview/VTK/Filters/Modeling/vtkGeodesicPath.h
  /export/bofur/che/paraview/paraview/VTK/Filters/Modeling/vtkGraphGeodesicPath.h

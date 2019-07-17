@@ -22,7 +22,7 @@
 #include "vtkPointData.h"
 #include "vtkPoints.h"
 #include "vtkPolyData.h"
-#include "vtkCurvatures.h"
+#include "./vtkCurvatures.h"
 
 #define ARRAY_SIZE(array) (sizeof((array))/sizeof((array[0])))
 vtkStandardNewMacro(vtkDijkstraGraphGeodesicPathHenry);

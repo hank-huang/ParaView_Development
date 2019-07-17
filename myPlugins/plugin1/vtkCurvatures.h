@@ -67,8 +67,8 @@
 #include "vtkFiltersGeneralModule.h" // For export macro
 #include "vtkPolyDataAlgorithm.h"
 
-#define VTK_CURVATURE_GAUSS 0
-#define VTK_CURVATURE_MEAN  1
+#define VTK_CURVATURE_GAUSS 1
+#define VTK_CURVATURE_MEAN  0
 #define VTK_CURVATURE_MAXIMUM 2
 #define VTK_CURVATURE_MINIMUM 3
 

@@ -12,7 +12,7 @@
      PURPOSE.  See the above copyright notice for more information.
 
 =========================================================================*/
-#include "vtkCurvatures.h"
+#include "./vtkCurvatures.h"
 
 #include "vtkCellArray.h"
 #include "vtkCellData.h"
@@ -37,7 +37,7 @@ vtkStandardNewMacro(vtkCurvatures);
 //-------------------------------------------------------//
 vtkCurvatures::vtkCurvatures()
 {
-  this->CurvatureType = VTK_CURVATURE_GAUSS;
+  this->CurvatureType = VTK_CURVATURE_MEAN;
   this->InvertMeanCurvature = 0;
 }
 //-------------------------------------------------------//
