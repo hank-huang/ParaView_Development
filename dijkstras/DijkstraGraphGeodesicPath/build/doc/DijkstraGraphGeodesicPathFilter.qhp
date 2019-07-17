@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>DijkstraGraphGeodesicPathFilter.org</namespace>
+    <virtualFolder>DijkstraGraphGeodesicPathFilter</virtualFolder>
+    <filterSection>
+        <toc> <section title="DijkstraGraphGeodesicPathFilter" ref="filters.DijkstraGraphGeodesicPath.html" >
+     <section title="My DGGP" ref="filters.DijkstraGraphGeodesicPath.html" />
+ </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          <file>filters.DijkstraGraphGeodesicPath.html</file>
+
+        </files>
+    </filterSection>
+</QtHelpProject>

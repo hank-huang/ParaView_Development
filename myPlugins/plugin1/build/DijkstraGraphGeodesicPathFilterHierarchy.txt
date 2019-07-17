@@ -1,0 +1,2 @@
+vtkDijkstraGraphGeodesicPathHenry : vtkGraphGeodesicPath ; vtkDijkstraGraphGeodesicPathHenry.h ; DijkstraGraphGeodesicPathFilter
+vtkDijkstraGraphGeodesicPathHenry::Superclass = vtkGraphGeodesicPath ; vtkDijkstraGraphGeodesicPathHenry.h ; DijkstraGraphGeodesicPathFilter

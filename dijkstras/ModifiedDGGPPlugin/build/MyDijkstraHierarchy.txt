@@ -1,0 +1,4 @@
+vtkDijkstraGraphGeodesicPath1 : vtkGraphGeodesicPath ; vtkDijkstraGraphGeodesicPath1.h ; MyDijkstra
+vtkDijkstraGraphGeodesicPath1::Superclass = vtkGraphGeodesicPath ; vtkDijkstraGraphGeodesicPath1.h ; MyDijkstra
+vtkMyDGGP : vtkPolyDataAlgorithm ; vtkMyDGGP.h ; MyDijkstra
+vtkMyDGGP::Superclass = vtkPolyDataAlgorithm ; vtkMyDGGP.h ; MyDijkstra

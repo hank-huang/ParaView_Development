@@ -1,0 +1,57 @@
+
+==My DGGP==
+
+Shortest path calculation between two points.
+
+{| class="PropertiesTable" border="1" cellpadding="5"
+|-
+| '''Property'''
+| '''Description'''
+| '''Default Value(s)'''
+| '''Restrictions'''
+
+|-
+|'''Input''' (Input)
+|
+
+|
+
+|
+Accepts input of following types:
+* vtkDataSet
+|-
+|'''Start Vertex''' (StartVertex)
+|
+
+Define start point. Default is 0.
+
+|
+0
+|
+
+|-
+|'''End Vertex''' (EndVertex)
+|
+
+Define end point. Default is 10.
+
+|
+10
+|
+
+|-
+|'''LineType''' (LineType)
+|
+
+This propery specifies which type of curvature to compute.
+
+|
+0
+|
+The value(s) is an enumeration of the following:
+* Geodesic (0)
+* Sulcus (1)
+* Gyrus (2)
+
+|}
+

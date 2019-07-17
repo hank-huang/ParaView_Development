@@ -1,0 +1,69 @@
+<xml>
+    <proxy>
+        <group>filters</group>
+        <name>DijkstraGraphGeodesicPath</name>
+        <label>My DGGP</label>
+        <documentation>
+            <brief>Shortest path calculation between two points.</brief>
+            <long/>
+        </documentation>
+        <property>
+            <name>Input</name>
+            <label>Input</label>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>Accepts input of following types:</text>
+                    <list>
+                        <item>vtkDataSet</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>StartVertex</name>
+            <label>Start Vertex</label>
+            <documentation>
+                <brief/>
+                <long>
+           Define start point. Default is 0.
+         </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains/>
+        </property>
+        <property>
+            <name>EndVertex</name>
+            <label>End Vertex</label>
+            <documentation>
+                <brief/>
+                <long>
+           Define end point. Default is 10.
+         </long>
+            </documentation>
+            <defaults>10</defaults>
+            <domains/>
+        </property>
+        <property>
+            <name>LineType</name>
+            <label>LineType</label>
+            <documentation>
+                <brief/>
+                <long>
+          This propery specifies which type of curvature to compute.
+        </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>The value(s) is an enumeration of the following:</text>
+                    <list>
+                        <item>Geodesic (0)</item>
+                        <item>Sulcus (1)</item>
+                        <item>Gyrus (2)</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+    </proxy>
+</xml>

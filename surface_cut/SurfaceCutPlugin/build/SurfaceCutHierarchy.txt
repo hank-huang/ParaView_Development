@@ -1,0 +1,2 @@
+surfaceCut : vtkPolyDataAlgorithm ; surfaceCut.h ; SurfaceCut
+surfaceCut::Superclass = vtkPolyDataAlgorithm ; surfaceCut.h ; SurfaceCut

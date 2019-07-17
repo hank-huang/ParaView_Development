@@ -1,0 +1,88 @@
+BW Curvature (ctype, ndepth, dx, dy, dz)
+
+1. if surface empty return error
+2. if ctype not max,min,mean,guass return error
+
+//-------------------------------
+Curvature_Generation
+
+1.  if (ndepth < 1 or ndepth > 1000)
+2.     ndepth = 2
+3.  genNeighborhoods(ndepth)
+4.  if no neighborhoods return error
+5.  if no unit normals
+6.     generate unit normals
+7.         if still no unit normals return error
+8.  mCurvature.setDim(mNumVert)
+9.  mCurvature = 0
+10. maxneighborhoods = 0
+11. set maxneighborhoods
+
+//-------------------------------
+Initialize
+
+Array1D<float> h(maxn);
+Array1D<float> u(maxn);
+Array1D<float> v(maxn);
+Array1D<float> uu(maxn);
+Array1D<float> vv(maxn);
+Array1D<float> two_uv(maxn);
+float tmp[3],U[3][3],BU[3],work[3],workc[5];
+float rval;
+int   IPIV[4];
+float C[2][2],W[2];
+char  JOBZ, UPLO;
+int   INFO,  LDA, LDB, LWORK, N, NRHS;
+int   LDC, LWORKC, NC;
+int   i,j;
+
+//-------------------------------
+Big_ass_for_loop
+
+1. for pindx from 0 to mNumVert do
+2.    double a,b,c,d
+3.    Point b1,b2,b3
+4.    int num_nei = mNbhd[pindx].numNeighbors()
+//----
+5.    double ptx, pty, ptz
+6.    ptx = mVert[pindx].y() * dx
+7.    pty = mVert[pindx].x() * dy
+8.    ptz = mVert[pindx].z() * dz
+//----
+9.    Point pp = new Point(ptx, pty, ptz)
+10.   Surface::getPlane(a,b,c,d,pp,nn)
+11.   Surface::getBasisVectors(b1,b2,b3,nn)
+//----
+12.   double nx = nn.x()
+13.   double ny = nn.y()
+14.   double nz = nn.z()
+//----
+15.   for i from 0 to num_neighbors
+16.       nei = mNbhd[pindx].getNeighbor(i)
+17.       if (nei < 0) continue
+18.       double px = mVert[nei].x() * dx
+19.       double py = mVert[nei].x() * dy
+20.       double pz = mVert[nei].x() * dz
+
+KEY
+num_nei -> number of neighborhoods
+
+QUESTIONS
+What is Nbhd?
+What is pindx -> point index?
+What does getPlane do?
+What does getBasisVectors do?
+
+
+
+
+
+
+
+Questions
+What is ndepth?
+What does genNeighborhoods do?
+What does setDim do?
+What is mNumVert?
+What is mCurvature?
+What is Array1D

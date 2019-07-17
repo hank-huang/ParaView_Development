@@ -1,0 +1,50 @@
+
+==My Djikstra Graph Geodesic Path==
+
+uses Dijkstra Path Geodesic Path to return shortest path between user selected points
+
+{| class="PropertiesTable" border="1" cellpadding="5"
+|-
+| '''Property'''
+| '''Description'''
+| '''Default Value(s)'''
+| '''Restrictions'''
+
+|-
+|'''Input''' (Input)
+|
+
+Set the source data set.
+
+|
+
+|
+Accepts input of following types:
+* vtkPolyData
+|-
+|'''Selection''' (Selection)
+|
+
+Set the extracted selection data set.
+
+|
+
+|
+Accepts input of following types:
+* vtkUnstructuredGrid
+|-
+|'''LineType''' (LineType)
+|
+
+This propery specifies which type of curvature to compute.
+
+|
+0
+|
+The value(s) is an enumeration of the following:
+* Geodesic (0)
+* Sulcus (1)
+* Gyrus (2)
+
+|}
+

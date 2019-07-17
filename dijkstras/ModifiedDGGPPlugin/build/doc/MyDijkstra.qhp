@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>MyDijkstra.org</namespace>
+    <virtualFolder>MyDijkstra</virtualFolder>
+    <filterSection>
+        <toc> <section title="MyDijkstra" ref="filters.MyDijkstra.html" >
+     <section title="My Djikstra Graph Geodesic Path" ref="filters.MyDijkstra.html" />
+ </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          <file>filters.MyDijkstra.html</file>
+
+        </files>
+    </filterSection>
+</QtHelpProject>

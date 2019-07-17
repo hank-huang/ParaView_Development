@@ -1,0 +1,70 @@
+<xml>
+    <proxy>
+        <group>filters</group>
+        <name>MyDijkstra</name>
+        <label>My Djikstra Graph Geodesic Path</label>
+        <documentation>
+            <brief>uses Dijkstra Path Geodesic Path to return shortest path between          user selected points</brief>
+            <long/>
+        </documentation>
+        <property>
+            <name>Input</name>
+            <label>Input</label>
+            <documentation>
+                <brief/>
+                <long>
+          Set the source data set.
+        </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>Accepts input of following types:</text>
+                    <list>
+                        <item>vtkPolyData</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>Selection</name>
+            <label>Selection</label>
+            <documentation>
+                <brief/>
+                <long>
+          Set the extracted selection data set.
+        </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>Accepts input of following types:</text>
+                    <list>
+                        <item>vtkUnstructuredGrid</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>LineType</name>
+            <label>LineType</label>
+            <documentation>
+                <brief/>
+                <long>
+         This propery specifies which type of curvature to compute.
+       </long>
+            </documentation>
+            <defaults>0</defaults>
+            <domains>
+                <domain>
+                    <text>The value(s) is an enumeration of the following:</text>
+                    <list>
+                        <item>Geodesic (0)</item>
+                        <item>Sulcus (1)</item>
+                        <item>Gyrus (2)</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+    </proxy>
+</xml>

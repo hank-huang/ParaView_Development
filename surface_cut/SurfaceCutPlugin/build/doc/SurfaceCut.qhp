@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>SurfaceCut.org</namespace>
+    <virtualFolder>SurfaceCut</virtualFolder>
+    <filterSection>
+        <toc> <section title="SurfaceCut" ref="filters.SurfaceCut.html" >
+     <section title="Surface Cut" ref="filters.SurfaceCut.html" />
+ </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          <file>filters.SurfaceCut.html</file>
+
+        </files>
+    </filterSection>
+</QtHelpProject>

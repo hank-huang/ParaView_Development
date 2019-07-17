@@ -1,0 +1,37 @@
+
+==Surface Cut==
+
+uses implicit selection loop and vtkClipPolyData to extract a user-defined region from the surface.
+
+{| class="PropertiesTable" border="1" cellpadding="5"
+|-
+| '''Property'''
+| '''Description'''
+| '''Default Value(s)'''
+| '''Restrictions'''
+
+|-
+|'''Input''' (Input)
+|
+
+Set the source data set.
+
+|
+
+|
+Accepts input of following types:
+* vtkPolyData
+|-
+|'''Selection''' (Selection)
+|
+
+Dijkstra's loop.
+
+|
+
+|
+Accepts input of following types:
+* vtkPolyData
+
+|}
+

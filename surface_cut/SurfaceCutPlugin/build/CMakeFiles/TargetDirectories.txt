@@ -1,0 +1,4 @@
+/cis/home/che/Documents/SurfaceCutPlugin/build/CMakeFiles/rebuild_cache.dir
+/cis/home/che/Documents/SurfaceCutPlugin/build/CMakeFiles/SurfaceCut.dir
+/cis/home/che/Documents/SurfaceCutPlugin/build/CMakeFiles/edit_cache.dir
+/cis/home/che/Documents/SurfaceCutPlugin/build/CMakeFiles/SurfaceCutHierarchy.dir

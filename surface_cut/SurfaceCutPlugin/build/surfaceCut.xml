@@ -1,0 +1,49 @@
+<xml>
+    <proxy>
+        <group>filters</group>
+        <name>SurfaceCut</name>
+        <label>Surface Cut</label>
+        <documentation>
+            <brief>uses implicit selection loop and vtkClipPolyData to extract          a user-defined region from the surface.</brief>
+            <long/>
+        </documentation>
+        <property>
+            <name>Input</name>
+            <label>Input</label>
+            <documentation>
+                <brief/>
+                <long>
+          Set the source data set.
+        </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>Accepts input of following types:</text>
+                    <list>
+                        <item>vtkPolyData</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+        <property>
+            <name>Selection</name>
+            <label>Selection</label>
+            <documentation>
+                <brief/>
+                <long>
+          Dijkstra's loop.
+        </long>
+            </documentation>
+            <defaults/>
+            <domains>
+                <domain>
+                    <text>Accepts input of following types:</text>
+                    <list>
+                        <item>vtkPolyData</item>
+                    </list>
+                </domain>
+            </domains>
+        </property>
+    </proxy>
+</xml>
