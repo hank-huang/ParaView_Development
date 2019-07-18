@@ -68,14 +68,20 @@ vtkDijkstraGraphGeodesicPathHenryClientServer.cxx: ../vtkDijkstraGraphGeodesicPa
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "CS Wrapping - generating vtkDijkstraGraphGeodesicPathHenryClientServer.cxx"
 	/export/bofur/che/paraview/paraview_build/bin/vtkWrapClientServer-pv5.6 @/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilter.args -o /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.h
 
+vtkCurvaturesClientServer.cxx: /export/bofur/che/paraview/paraview_build/bin/vtkWrapClientServer-pv5.6
+vtkCurvaturesClientServer.cxx: DijkstraGraphGeodesicPathFilter.args
+vtkCurvaturesClientServer.cxx: ../vtkCurvatures.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "CS Wrapping - generating vtkCurvaturesClientServer.cxx"
+	/export/bofur/che/paraview/paraview_build/bin/vtkWrapClientServer-pv5.6 @/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilter.args -o /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkCurvaturesClientServer.cxx /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkCurvatures.h
+
 vtkSMXML_DijkstraGraphGeodesicPathFilter.h: ../vtkDijkstraGraphGeodesicPathHenry.xml
 vtkSMXML_DijkstraGraphGeodesicPathFilter.h: /export/bofur/che/paraview/paraview_build/bin/vtkkwProcessXML-pv5.6
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating vtkSMXML_DijkstraGraphGeodesicPathFilter.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating vtkSMXML_DijkstraGraphGeodesicPathFilter.h"
 	/export/bofur/che/paraview/paraview_build/bin/vtkkwProcessXML-pv5.6 /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkSMXML_DijkstraGraphGeodesicPathFilter.h "DijkstraGraphGeodesicPathFilter" "Interfaces" "Interfaces" /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.xml
 
 doc/DijkstraGraphGeodesicPathFilter.qch: vtkDijkstraGraphGeodesicPathHenry.xml
 doc/DijkstraGraphGeodesicPathFilter.qch: /export/bofur/che/paraview/paraview/CMake/generate_qhp.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling Qt help project DijkstraGraphGeodesicPathFilter.qhp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling Qt help project DijkstraGraphGeodesicPathFilter.qhp"
 	cd /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/doc && /usr/bin/cmake -Doutput_file:FILEPATH=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/doc/DijkstraGraphGeodesicPathFilter.qhp "-Dfile_patterns:STRING=*.html_s*.css_s*.png_s*.jpg" -Dnamespace:STRING=DijkstraGraphGeodesicPathFilter.org -Dfolder:PATH=DijkstraGraphGeodesicPathFilter -Dname:STRING=DijkstraGraphGeodesicPathFilter -Dgiven_toc:STRING= -P /export/bofur/che/paraview/paraview/CMake/generate_qhp.cmake
 	cd /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/doc && /usr/local/qt/Qt-5.11.2/5.11.2/gcc_64/bin/qhelpgenerator /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/doc/DijkstraGraphGeodesicPathFilter.qhp -o /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/doc/DijkstraGraphGeodesicPathFilter.qch
 
@@ -83,12 +89,12 @@ vtkDijkstraGraphGeodesicPathHenry.xml: ../vtkDijkstraGraphGeodesicPathHenry.xml
 vtkDijkstraGraphGeodesicPathHenry.xml: /export/bofur/che/paraview/paraview/CMake/smxml_to_xml.xsl
 vtkDijkstraGraphGeodesicPathHenry.xml: /export/bofur/che/paraview/paraview/CMake/xml_to_html.xsl
 vtkDijkstraGraphGeodesicPathHenry.xml: /export/bofur/che/paraview/paraview/CMake/generate_proxydocumentation.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Documentation HTMLs from xmls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Documentation HTMLs from xmls"
 	/usr/bin/cmake -Dxmlpatterns:FILEPATH=/usr/local/qt/Qt-5.11.2/5.11.2/gcc_64/bin/xmlpatterns -Dxml_to_xml_xsl:FILEPATH=/export/bofur/che/paraview/paraview/CMake/smxml_to_xml.xsl -Dgenerate_category_rw_xsl:FILEPATH=/export/bofur/che/paraview/paraview/CMake/generate_category_rw.xsl -Dxml_to_html_xsl:FILEPATH=/export/bofur/che/paraview/paraview/CMake/xml_to_html.xsl -Dxml_to_wiki_xsl:FILEPATH=/export/bofur/che/paraview/paraview/CMake/xml_to_wiki.xsl.in -Dinput_xmls:STRING=/cis/home/hhuang/ParaView_uFiles/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.xml_s -Dinput_gui_xmls:STRING= -Doutput_dir:PATH=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/doc -Doutput_file:FILEPATH=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkDijkstraGraphGeodesicPathHenry.xml -P /export/bofur/che/paraview/paraview/CMake/generate_proxydocumentation.cmake
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/flags.make
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o: ../vtkDijkstraGraphGeodesicPathHenry.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o -c /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.cxx
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.i: cmake_force
@@ -110,9 +116,33 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o.provides.build: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o
 
 
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/flags.make
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o: ../vtkCurvatures.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o -c /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkCurvatures.cxx
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkCurvatures.cxx > CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.i
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkCurvatures.cxx -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.s
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.requires:
+
+.PHONY : CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.requires
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.provides: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.requires
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.provides.build
+.PHONY : CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.provides
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.provides.build: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o
+
+
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/flags.make
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o: vtkDijkstraGraphGeodesicPathHenryClientServer.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o -c /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.i: cmake_force
@@ -134,9 +164,33 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o.provides.build: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o
 
 
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/flags.make
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o: vtkCurvaturesClientServer.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o -c /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkCurvaturesClientServer.cxx
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkCurvaturesClientServer.cxx > CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.i
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkCurvaturesClientServer.cxx -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.s
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.requires:
+
+.PHONY : CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.requires
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.provides: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.requires
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.provides.build
+.PHONY : CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.provides
+
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.provides.build: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o
+
+
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/flags.make
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o: DijkstraGraphGeodesicPathFilterInit.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o -c /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilterInit.cxx
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.i: cmake_force
@@ -160,7 +214,7 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterIn
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/flags.make
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o: DijkstraGraphGeodesicPathFilter_Plugin.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o -c /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilter_Plugin.cxx
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.i: cmake_force
@@ -185,7 +239,9 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_P
 # Object files for target DijkstraGraphGeodesicPathFilter
 DijkstraGraphGeodesicPathFilter_OBJECTS = \
 "CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o" \
+"CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o" \
 "CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o" \
+"CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o" \
 "CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o" \
 "CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o"
 
@@ -193,7 +249,9 @@ DijkstraGraphGeodesicPathFilter_OBJECTS = \
 DijkstraGraphGeodesicPathFilter_EXTERNAL_OBJECTS =
 
 libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o
+libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o
 libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o
+libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o
 libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o
 libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o
 libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make
@@ -292,7 +350,7 @@ libDijkstraGraphGeodesicPathFilter.so: /export/bofur/che/paraview/paraview_build
 libDijkstraGraphGeodesicPathFilter.so: /export/bofur/che/paraview/paraview_build/lib/libvtkCommonCore-pv5.6.so.1
 libDijkstraGraphGeodesicPathFilter.so: /export/bofur/che/paraview/paraview_build/lib/libvtksys-pv5.6.so.1
 libDijkstraGraphGeodesicPathFilter.so: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libDijkstraGraphGeodesicPathFilter.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libDijkstraGraphGeodesicPathFilter.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -301,7 +359,9 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build: libDijkstraGraphGeodesicPa
 .PHONY : CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/requires: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o.requires
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/requires: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o.requires
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/requires: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o.requires
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/requires: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o.requires
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/requires: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o.requires
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/requires: CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o.requires
 
@@ -313,6 +373,7 @@ CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/clean:
 
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/depend: DijkstraGraphGeodesicPathFilter_doc.h
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/depend: vtkDijkstraGraphGeodesicPathHenryClientServer.cxx
+CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/depend: vtkCurvaturesClientServer.cxx
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/depend: vtkSMXML_DijkstraGraphGeodesicPathFilter.h
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/depend: doc/DijkstraGraphGeodesicPathFilter.qch
 CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/depend: vtkDijkstraGraphGeodesicPathHenry.xml

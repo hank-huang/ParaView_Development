@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilterInit.cxx" "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilterInit.cxx.o"
   "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilter_Plugin.cxx" "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.o"
+  "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkCurvatures.cxx" "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o"
+  "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkCurvaturesClientServer.cxx" "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o"
   "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/vtkDijkstraGraphGeodesicPathHenry.cxx" "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenry.cxx.o"
   "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx" "/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkDijkstraGraphGeodesicPathHenryClientServer.cxx.o"
   )

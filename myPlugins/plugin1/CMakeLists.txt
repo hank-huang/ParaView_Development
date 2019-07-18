@@ -13,4 +13,4 @@ include(ParaViewPlugins)
 
 ADD_PARAVIEW_PLUGIN(DijkstraGraphGeodesicPathFilter "1.0"
   SERVER_MANAGER_XML vtkDijkstraGraphGeodesicPathHenry.xml
-  SERVER_MANAGER_SOURCES vtkDijkstraGraphGeodesicPathHenry.cxx)
+  SERVER_MANAGER_SOURCES vtkDijkstraGraphGeodesicPathHenry.cxx vtkCurvatures.cxx)

@@ -1,2 +1,4 @@
+vtkCurvatures : vtkPolyDataAlgorithm ; vtkCurvatures.h ; DijkstraGraphGeodesicPathFilter
+vtkCurvatures::Superclass = vtkPolyDataAlgorithm ; vtkCurvatures.h ; DijkstraGraphGeodesicPathFilter
 vtkDijkstraGraphGeodesicPathHenry : vtkGraphGeodesicPath ; vtkDijkstraGraphGeodesicPathHenry.h ; DijkstraGraphGeodesicPathFilter
 vtkDijkstraGraphGeodesicPathHenry::Superclass = vtkGraphGeodesicPath ; vtkDijkstraGraphGeodesicPathHenry.h ; DijkstraGraphGeodesicPathFilter

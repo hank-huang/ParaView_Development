@@ -60,6 +60,7 @@ DijkstraGraphGeodesicPathFilterHierarchy.txt: /export/bofur/che/paraview/paravie
 DijkstraGraphGeodesicPathFilterHierarchy.txt: DijkstraGraphGeodesicPathFilterHierarchy..args
 DijkstraGraphGeodesicPathFilterHierarchy.txt: DijkstraGraphGeodesicPathFilterHierarchy.data
 DijkstraGraphGeodesicPathFilterHierarchy.txt: ../vtkDijkstraGraphGeodesicPathHenry.h
+DijkstraGraphGeodesicPathFilterHierarchy.txt: ../vtkCurvatures.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "For DijkstraGraphGeodesicPathFilter - updating DijkstraGraphGeodesicPathFilterHierarchy.txt"
 	/export/bofur/che/paraview/paraview_build/bin/vtkWrapHierarchy-pv5.6 @DijkstraGraphGeodesicPathFilterHierarchy..args -o /cis/home/hhuang/ParaView_Files/myPlugins/plugin1/build/DijkstraGraphGeodesicPathFilterHierarchy.txt DijkstraGraphGeodesicPathFilterHierarchy.data @DijkstraGraphGeodesicPathFilterOtherHierarchyFiles.args
 

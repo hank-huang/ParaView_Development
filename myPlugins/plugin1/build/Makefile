@@ -190,6 +190,60 @@ DijkstraGraphGeodesicPathFilter_Plugin.cxx.s:
 	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/DijkstraGraphGeodesicPathFilter_Plugin.cxx.s
 .PHONY : DijkstraGraphGeodesicPathFilter_Plugin.cxx.s
 
+vtkCurvatures.o: vtkCurvatures.cxx.o
+
+.PHONY : vtkCurvatures.o
+
+# target to build an object file
+vtkCurvatures.cxx.o:
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.o
+.PHONY : vtkCurvatures.cxx.o
+
+vtkCurvatures.i: vtkCurvatures.cxx.i
+
+.PHONY : vtkCurvatures.i
+
+# target to preprocess a source file
+vtkCurvatures.cxx.i:
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.i
+.PHONY : vtkCurvatures.cxx.i
+
+vtkCurvatures.s: vtkCurvatures.cxx.s
+
+.PHONY : vtkCurvatures.s
+
+# target to generate assembly for a file
+vtkCurvatures.cxx.s:
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvatures.cxx.s
+.PHONY : vtkCurvatures.cxx.s
+
+vtkCurvaturesClientServer.o: vtkCurvaturesClientServer.cxx.o
+
+.PHONY : vtkCurvaturesClientServer.o
+
+# target to build an object file
+vtkCurvaturesClientServer.cxx.o:
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.o
+.PHONY : vtkCurvaturesClientServer.cxx.o
+
+vtkCurvaturesClientServer.i: vtkCurvaturesClientServer.cxx.i
+
+.PHONY : vtkCurvaturesClientServer.i
+
+# target to preprocess a source file
+vtkCurvaturesClientServer.cxx.i:
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.i
+.PHONY : vtkCurvaturesClientServer.cxx.i
+
+vtkCurvaturesClientServer.s: vtkCurvaturesClientServer.cxx.s
+
+.PHONY : vtkCurvaturesClientServer.s
+
+# target to generate assembly for a file
+vtkCurvaturesClientServer.cxx.s:
+	$(MAKE) -f CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/build.make CMakeFiles/DijkstraGraphGeodesicPathFilter.dir/vtkCurvaturesClientServer.cxx.s
+.PHONY : vtkCurvaturesClientServer.cxx.s
+
 vtkDijkstraGraphGeodesicPathHenry.o: vtkDijkstraGraphGeodesicPathHenry.cxx.o
 
 .PHONY : vtkDijkstraGraphGeodesicPathHenry.o
@@ -260,6 +314,12 @@ help:
 	@echo "... DijkstraGraphGeodesicPathFilter_Plugin.o"
 	@echo "... DijkstraGraphGeodesicPathFilter_Plugin.i"
 	@echo "... DijkstraGraphGeodesicPathFilter_Plugin.s"
+	@echo "... vtkCurvatures.o"
+	@echo "... vtkCurvatures.i"
+	@echo "... vtkCurvatures.s"
+	@echo "... vtkCurvaturesClientServer.o"
+	@echo "... vtkCurvaturesClientServer.i"
+	@echo "... vtkCurvaturesClientServer.s"
 	@echo "... vtkDijkstraGraphGeodesicPathHenry.o"
 	@echo "... vtkDijkstraGraphGeodesicPathHenry.i"
 	@echo "... vtkDijkstraGraphGeodesicPathHenry.s"

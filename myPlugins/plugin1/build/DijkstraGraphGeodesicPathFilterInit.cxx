@@ -30,6 +30,7 @@ void initDijkstraGraphGeodesicPathFilterPython()
 #endif
 
 extern void vtkDijkstraGraphGeodesicPathHenry_Init(vtkClientServerInterpreter* csi);
+extern void vtkCurvatures_Init(vtkClientServerInterpreter* csi);
 
 
 extern "C" void VTK_WRAP_CS_EXPORT DijkstraGraphGeodesicPathFilter_Initialize(
@@ -56,5 +57,6 @@ extern "C" void VTK_WRAP_CS_EXPORT DijkstraGraphGeodesicPathFilter_Initialize(
 #endif
 
   vtkDijkstraGraphGeodesicPathHenry_Init(csi);
+  vtkCurvatures_Init(csi);
 
 }
